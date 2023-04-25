@@ -25,7 +25,9 @@ jobs:
       run: | 
         cd src
         javac -cp . Main.java
+        javac -cp . Participante.java
+        javac -cp . ParticipanteTest.java
     - name: Rodando projeto
       run: | 
         cd src
-        java -cp . Main
+        java -cp . ParticipanteTest
