@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         List<Participante> participantes = new ArrayList<>();
+
         System.out.print("Quantos participantes irão participar: ");
         int num = Integer.parseInt(scanner.nextLine());
 
